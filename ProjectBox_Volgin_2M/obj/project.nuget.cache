@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hjpNv02R4VRwbhFl4Uqu11JFH6qoY4NofSKVcKgNYathgalxNdJ1rH/6KqUpOpA/IvAvvgLbjVlcG0Cpco9bvQ==",
+  "success": true,
+  "projectFilePath": "D:\\BORIS\\ProgtimeZan\\PROJECT_VERS_0.1\\ProjectBox_Volgin_2M\\ProjectBox_Volgin_2M\\ProjectBox_Volgin_2M.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\volgi\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\volgi\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+  ],
+  "logs": []
+}
