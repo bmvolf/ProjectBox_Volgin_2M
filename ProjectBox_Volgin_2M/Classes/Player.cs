@@ -19,16 +19,22 @@ namespace ProjectBox_Volgin_2M.Classes
         private int topOfBox = 464; //верх коробки
         private int distance = 216; //расстояние между позициями
         private int typePosition; //тип позиции от 0 до 2
-        private int textureWidth = 256;
-        private int indent = 40;
+        private int textureWidth = 256; //читай инглишъ мен!
+        private int textureHeight = 256;
+        private int indent = 40; // отступ
+        private int health;
         private KeyboardState keyboardState; //нынешнее состояние
         private KeyboardState prevKeyboardState; //предыдущее состояние
+        private Rectangle collision;
+        
         #endregion
+        public event Action PlayerDied;
         #region Constructor
         public Player()
         {
             texture = null;
             position = new Vector2(40, topOfBox);
+            health = 5;
         }
         #endregion
         #region Properties
@@ -44,11 +50,20 @@ namespace ProjectBox_Volgin_2M.Classes
         {
             get { return indent; }
         }
+        public Rectangle Collision
+        {
+            get { return collision; }
+        }
+        public int Health
+        {
+            get { return health; }
+            set { health = value; }
+        }
         #endregion
         #region Methods
-        public void LoadContent(ContentManager content)
+        public void LoadContent(Texture2D texture)
         {
-            texture = content.Load<Texture2D>("Box");
+            this.texture = texture;
         }
         public void Draw(SpriteBatch spriteBatch)
         {
@@ -78,7 +93,20 @@ namespace ProjectBox_Volgin_2M.Classes
             }
             prevKeyboardState = keyboardState;
             #endregion
+            collision = new Rectangle((int)position.X, (int)position.Y + 30, textureWidth, 30);
+            if(health <= 0)
+            {
+                if(PlayerDied != null)
+                {
+                    PlayerDied();
+                }
+            }
+        }
+        public void Restart()
+        {
+            health = 5;
         }
         #endregion
+
     }
 }

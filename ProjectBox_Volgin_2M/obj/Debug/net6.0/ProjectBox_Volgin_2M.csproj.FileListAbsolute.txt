@@ -26,3 +26,9 @@ D:\BORIS\ProgtimeZan\PROJECT_VERS_0.1\ProjectBox_Volgin_2M\ProjectBox_Volgin_2M\
 D:\BORIS\ProgtimeZan\PROJECT_VERS_0.1\ProjectBox_Volgin_2M\ProjectBox_Volgin_2M\obj\Debug\net6.0\ProjectBox_Volgin_2M.genruntimeconfig.cache
 D:\BORIS\ProgtimeZan\PROJECT_VERS_0.1\ProjectBox_Volgin_2M\ProjectBox_Volgin_2M\bin\Debug\net6.0\Content\Background.xnb
 D:\BORIS\ProgtimeZan\PROJECT_VERS_0.1\ProjectBox_Volgin_2M\ProjectBox_Volgin_2M\bin\Debug\net6.0\Content\Banana.xnb
+D:\BORIS\ProgtimeZan\PROJECT_VERS_0.1\ProjectBox_Volgin_2M\ProjectBox_Volgin_2M\bin\Debug\net6.0\Content\Bomb.xnb
+D:\BORIS\ProgtimeZan\PROJECT_VERS_0.1\ProjectBox_Volgin_2M\ProjectBox_Volgin_2M\bin\Debug\net6.0\Content\HP.xnb
+D:\BORIS\ProgtimeZan\PROJECT_VERS_0.1\ProjectBox_Volgin_2M\ProjectBox_Volgin_2M\bin\Debug\net6.0\Content\Busket.xnb
+D:\BORIS\ProgtimeZan\PROJECT_VERS_0.1\ProjectBox_Volgin_2M\ProjectBox_Volgin_2M\bin\Debug\net6.0\Content\Wings.xnb
+D:\BORIS\ProgtimeZan\PROJECT_VERS_0.1\ProjectBox_Volgin_2M\ProjectBox_Volgin_2M\bin\Debug\net6.0\Content\GameFontBlack.xnb
+D:\BORIS\ProgtimeZan\PROJECT_VERS_0.1\ProjectBox_Volgin_2M\ProjectBox_Volgin_2M\bin\Debug\net6.0\Content\DarkBG.xnb

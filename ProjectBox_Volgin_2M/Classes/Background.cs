@@ -20,10 +20,15 @@ namespace ProjectBox_Volgin_2M.Classes
             texture = null;
             position = Vector2.Zero;
         }
-
-        public void LoadContent(ContentManager content)
+        public Texture2D Texture
         {
-            texture = content.Load<Texture2D>("Background");
+            get { return texture; }
+            set { texture = value; }
+        }
+
+        public void LoadContent(Texture2D texture)
+        {
+            this.texture = texture;
         }
         public void Draw(SpriteBatch spriteBatch)
         {

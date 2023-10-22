@@ -12,6 +12,6 @@ namespace ProjectBox_Volgin_2M.Classes.Interfaces
 {
     public interface IFall
     {
-        void Fall(float speed, GameTime gameTime);
+        void Fall(double speed, GameTime gameTime);
     }
 }

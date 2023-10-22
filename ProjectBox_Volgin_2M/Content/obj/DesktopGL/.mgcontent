@@ -6,10 +6,22 @@
   <SourceFiles>
     <File>D:/BORIS/ProgtimeZan/PROJECT_VERS_0.1/ProjectBox_Volgin_2M/ProjectBox_Volgin_2M/Content/Background.jpg</File>
     <File>D:/BORIS/ProgtimeZan/PROJECT_VERS_0.1/ProjectBox_Volgin_2M/ProjectBox_Volgin_2M/Content/Banana.png</File>
+    <File>D:/BORIS/ProgtimeZan/PROJECT_VERS_0.1/ProjectBox_Volgin_2M/ProjectBox_Volgin_2M/Content/Bomb.png</File>
     <File>D:/BORIS/ProgtimeZan/PROJECT_VERS_0.1/ProjectBox_Volgin_2M/ProjectBox_Volgin_2M/Content/Box.png</File>
+    <File>D:/BORIS/ProgtimeZan/PROJECT_VERS_0.1/ProjectBox_Volgin_2M/ProjectBox_Volgin_2M/Content/Busket.png</File>
+    <File>D:/BORIS/ProgtimeZan/PROJECT_VERS_0.1/ProjectBox_Volgin_2M/ProjectBox_Volgin_2M/Content/DarkBG.jpg</File>
+    <File>D:/BORIS/ProgtimeZan/PROJECT_VERS_0.1/ProjectBox_Volgin_2M/ProjectBox_Volgin_2M/Content/File.spritefont</File>
+    <File>D:/BORIS/ProgtimeZan/PROJECT_VERS_0.1/ProjectBox_Volgin_2M/ProjectBox_Volgin_2M/Content/HP.png</File>
+    <File>D:/BORIS/ProgtimeZan/PROJECT_VERS_0.1/ProjectBox_Volgin_2M/ProjectBox_Volgin_2M/Content/Wings.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File>GameFontBlack.spritefont</File>
     <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
